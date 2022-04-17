@@ -462,6 +462,27 @@ nav {
   }
 }
 @media screen and (max-width: 414px) {
+  .conten {
+    margin: 10px 0;
+  }
+  .conten-img {
+    margin-left: 5%;
+    margin-top: 8%;
+    margin-bottom: 8%;
+  }
+  .text1 {
+    margin-left: 0px;
+  }
+  .btn-more-about-team {
+    border: none;
+    border-radius: 15px;
+    margin: 0px;
+    padding: 0px 10px;
+  }
+  .btn-img-more-about-team {
+    width: 20px;
+    height: auto;
+  }
   .text-everyone {
     padding: 0 5%;
     padding-top: 10px;
@@ -498,6 +519,11 @@ nav {
   }
 }
 @media screen and (max-width: 280px) {
+  .contact {
+    border: solid 1px;
+    border-radius: 30px;
+    padding: 0px 30px;
+  }
   .bordered-frame {
     width: 33px;
     height: 40px;
