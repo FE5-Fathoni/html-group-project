@@ -1,74 +1,559 @@
 .style {
-    font-family:'Muli', sans-serif;
-    color: #1a355f;
+  font-family: 'Muli', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  color: #1a355f;
 }
 
 nav {
-    display: flex;
-    background-color: rgb(252, 249, 253);
-    justify-content: space-around;
-    color:#1a355f;
-    height: 100px;
-    align-items: center;
-    margin: 20px 0;
+  display: flex;
+  background-color: rgb(252, 249, 253);
+  justify-content: space-around;
+  color: #1a355f;
+  height: 100px;
+  align-items: center;
+  margin: 20px 0;
 }
 
-.logo-img{
-    width: 15%;
-    margin: 9%;
+.logo-img {
+  width: 15%;
+  margin: 9%;
 }
-.ul{
-    margin-right: 13%;
+.ul {
+  margin-right: 13%;
 }
-.li{
-    padding-right: 30px;
-    color: #1a355f;
+.li {
+  padding-right: 30px;
+  color: #1a355f;
 }
-.contact{
-    background-color:#f07539;
-    color: #fff;
-    border:none;
-    border-radius:10px;
-}
-
-/* conten */
-.conten{
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    background-color: #e5ebf6;
-    margin: 20px 0;
-
-}
-.conten-img{
-    width: 35%;
-    height: 35%;
-    margin-left: 10%;
-    margin-top: 13%;
-    margin-bottom: 13%;
-}
-.text1{
-    margin-left: 20px;
+.contact {
+  color: #f07539;
+  border: solid 1px;
+  border-color: #f07539;
+  border-radius: 30px;
+  padding: 0px 30px;
 }
 
+/* conten 1 */
+.conten {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: #e5ebf6;
+  margin: 20px 0;
+}
+.conten-img {
+  width: 35%;
+  height: 35%;
+  margin-left: 10%;
+  margin-top: 13%;
+  margin-bottom: 13%;
+}
+.text1 {
+  margin-left: 20px;
+}
+.btn-more-about-team {
+  background-color: #f07539;
+  color: #fff;
+  border: none;
+  border-radius: 15px;
+  margin: 10px;
+  padding: 5px 20px;
+}
+.btn-img-more-about-team {
+  width: 30px;
+  height: auto;
+}
+/* conten 2 */
+.img-radius-conten2 {
+  background-color: #f07539;
+  color: #fff;
+  border-radius: 50%;
+  border: none;
+  width: 80px;
+  height: auto;
+}
+.reward-project-support {
+  background-color: #f2f5fa;
+  color: #1a355f;
+  border-radius: 40px;
+  margin: 0px 60px;
+}
+/* conten 3 */
+.text-everyone {
+  padding: 0 25%;
+  padding-top: 10%;
+  background: rgba(0, 22, 61, 0.613);
+}
+/* content 4 */
+.img-sutterstock {
+  max-width: 60%;
+  width: 50%;
+  margin-top: 25%;
+  border: none;
+  align-content: center;
+  margin-left: 27%;
+}
+.img-sutterstock-center {
+  max-width: 60%;
+  width: 50%;
+  margin-top: 10%;
+  border: none;
+  align-content: center;
+  margin-left: 27%;
+}
+.text-sutterstock {
+  margin-top: 40px;
+  color: #f07539;
+}
+.text-sutterstock-center {
+  margin-top: 20px;
+  color: #f07539;
+}
+.img-right-arrow {
+  max-width: 20px;
+}
+/* content 5 */
+.img-article {
+  width: 350px;
+  margin: 30px 0px;
+  border: none;
+}
 
-
+/* untuk semua judul */
+.text-judul {
+  margin: 50px 0;
+}
+/* border di judul conten & frame */
+.bordered-left {
+  width: 40px;
+  height: 10px;
+  border-bottom-color: #f07539;
+  border-bottom: solid 5px;
+  margin-top: 70px;
+  margin-right: 10px;
+}
+.bordered-right {
+  width: 40px;
+  height: 10px;
+  border-bottom-color: #f07539;
+  border-bottom: solid 5px;
+  margin-top: 70px;
+  margin-left: 10px;
+}
+.bordered-frame {
+  width: 169px;
+  height: 200px;
+  color: #f07539;
+  border: solid 8px;
+  margin-top: -194px;
+  margin-right: 50px;
+  margin-left: 90px;
+  position: relative;
+}
+.bordered-frame-tengah {
+  width: 169px;
+  height: 200px;
+  color: #1a355f;
+  border: solid 8px;
+  margin-top: -194px;
+  margin-right: 50px;
+  margin-left: 90px;
+  position: relative;
+}
 /* footer */
-.footer{
-    width: 100%;
-    background-color: #1a355f;
-    display: flex;
-    color: white;
-    align-items: center;
-    justify-content: space-around;
-    padding: 30px 0;
+.footer {
+  width: 100%;
+  background-color: #1a355f;
+  display: flex;
+  color: white;
+  align-items: center;
+  justify-content: space-around;
+  padding: 20px 0;
+  margin-top: 100px;
 }
-
-.footer-logo{
-    width: 150px;
+.footer-logo {
+  width: 150px;
+  height: auto;
+}
+.footer-logo-sosmed {
+  padding: 15px 8px;
+  width: 40px;
+}
+/* Jika ukuran layar lebar 1199px atau kurang, setel ukuran */
+@media screen and (max-width: 1199px) {
+  .contact {
+    padding: 0px 30px;
+  }
+  .huruf1 {
+    font-size: 40px;
+  }
+  .huruf2 {
+    font-size: 30px;
+  }
+  .huruf3 {
+    font-size: 28px;
+  }
+  .huruf4 {
+    font-size: 25px;
+  }
+  .huruf5 {
+    font-size: 23px;
+  }
+  .paragraf {
+    font-size: 20px;
+  }
+  .btn-img-more-about-team {
+    width: 30px;
     height: auto;
+  }
+  .reward-project-support {
+    margin: 0px 60px;
+  }
+  .img-radius-conten2 {
+    width: 80px;
+    height: auto;
+  }
+  .bordered-left {
+    margin-top: 70px;
+  }
+  .bordered-right {
+    margin-top: 70px;
+  }
+  .img-sutterstock {
+    max-width: 60%;
+    width: 53%;
+    margin-top: 20%;
+    margin-left: 25%;
+  }
+  .img-sutterstock-center {
+    max-width: 60%;
+    width: 53%;
+    margin-top: 10%;
+    margin-left: 25%;
+  }
+  .bordered-frame {
+    width: 145px;
+    height: 175px;
+    margin-top: -170px;
+    margin-right: 10px;
+    margin-left: 67px;
+  }
+  .bordered-frame-tengah {
+    width: 145px;
+    height: 175px;
+    margin-top: -170px;
+    margin-right: 10px;
+    margin-left: 67px;
+  }
+  .footer {
+    margin-top: 100px;
+  }
+  .footer-logo {
+    width: 150px;
+  }
+  .footer-logo-sosmed {
+    width: 40px;
+  }
 }
 
-.footer-logo-sosmed{
-    padding: 15px 8px;
+/* Jika ukuran layar lebar 992px atau kurang, setel ukuran */
+@media screen and (max-width: 992px) {
+  .contact {
+    padding: 0px 28px;
+  }
+  .huruf1 {
+    font-size: 30px;
+  }
+  .huruf2 {
+    font-size: 25px;
+  }
+  .huruf3 {
+    font-size: 23px;
+  }
+  .huruf4 {
+    font-size: 20px;
+  }
+  .huruf5 {
+    font-size: 17px;
+  }
+  .paragraf {
+    font-size: 14px;
+  }
+  .btn-img-more-about-team {
+    width: 28px;
+    height: auto;
+  }
+  .reward-project-support {
+    margin: 0px 20px;
+  }
+  .img-radius-conten2 {
+    width: 70px;
+    height: auto;
+  }
+  .bordered-left {
+    margin-top: 62px;
+  }
+  .bordered-right {
+    margin-top: 62px;
+  }
+  .img-sutterstock {
+    max-width: 60%;
+    width: 57%;
+    margin-top: 10%;
+    margin-left: 22%;
+  }
+  .img-sutterstock-center {
+    max-width: 60%;
+    width: 57%;
+    margin-top: 10%;
+    margin-left: 22%;
+  }
+  .bordered-frame {
+    width: 120px;
+    height: 140px;
+    margin-top: -135px;
+    margin-right: 30px;
+    margin-left: 42px;
+  }
+  .bordered-frame-tengah {
+    width: 120px;
+    height: 140px;
+    margin-top: -135px;
+    margin-right: 30px;
+    margin-left: 42px;
+  }
+}
+
+/* Jika ukuran layar lebar 767px atau kurang, setel ukuran font <div> menjadi 30px*/
+@media screen and (max-width: 767px) {
+  .contact {
+    padding: 0px 15px;
+  }
+  .huruf1 {
+    font-size: 13px;
+  }
+  .huruf2 {
+    font-size: 12px;
+  }
+  .huruf4 {
+    font-size: 11px;
+  }
+  .huruf5 {
+    font-size: 10px;
+  }
+  .paragraf {
+    font-size: 9px;
+  }
+  .btn-img-more-about-team {
+    width: 10px;
+    height: auto;
+  }
+  .reward-project-support {
+    margin: 0px 0px;
+  }
+  .img-radius-conten2 {
+    width: 30px;
+    height: auto;
+  }
+  .bordered-left {
+    margin-top: 50px;
+    width: 25px;
+    border-bottom: solid 3px;
+  }
+  .bordered-right {
+    margin-top: 50px;
+    width: 25px;
+    border-bottom: solid 3px;
+  }
+  .img-sutterstock {
+    max-width: 60%;
+    width: 57%;
+    margin-top: 10%;
+    margin-left: 30%;
+  }
+  .img-sutterstock-center {
+    max-width: 60%;
+    width: 57%;
+    margin-top: 20%;
+    margin-left: 30%;
+  }
+  .bordered-frame {
+    width: 80px;
+    height: 94px;
+    border: solid 3px;
+    margin-top: -93px;
+    margin-right: 20px;
+    margin-left: 45px;
+  }
+  .bordered-frame-tengah {
+    width: 80px;
+    height: 94px;
+    border: solid 3px;
+    margin-top: -93px;
+    margin-right: 20px;
+    margin-left: 45px;
+  }
+  .img-right-arrow {
+    max-width: 13px;
+  }
+  .footer {
+    margin-top: 50px;
+  }
+  .footer-logo {
+    width: 100px;
+  }
+  .footer-logo-sosmed {
+    width: 30px;
+  }
+}
+/* Jika ukuran layar lebar 510px atau kurang, setel ukuran font <div> menjadi 30px*/
+@media screen and (max-width: 510px) {
+  .huruf1 {
+    font-size: 12px;
+  }
+  .huruf2 {
+    font-size: 11px;
+  }
+  .huruf4 {
+    font-size: 10px;
+  }
+  .huruf5 {
+    font-size: 9px;
+  }
+  .paragraf {
+    font-size: 8px;
+  }
+  .btn-img-more-about-team {
+    width: 7px;
+    height: auto;
+  }
+  .reward-project-support {
+    margin: 0px 0px;
+  }
+  .img-radius-conten2 {
+    width: 30px;
+    height: auto;
+  }
+  .img-sutterstock {
+    width: 60%;
+    margin-top: 20%;
+    margin-left: 18%;
+  }
+  .img-sutterstock-center {
+    width: 60%;
+    margin-top: 10%;
+    margin-left: 25%;
+  }
+  .bordered-frame {
+    width: 70px;
+    height: 88px;
+    margin-top: -88px;
+    margin-right: 30px;
+    margin-left: 23px;
+  }
+  .bordered-frame-tengah {
+    width: 70px;
+    height: 88px;
+    margin-top: -88px;
+    margin-right: 30px;
+    margin-left: 33px;
+  }
+  .img-right-arrow {
+    max-width: 12px;
+  }
+}
+@media screen and (max-width: 414px) {
+  .conten {
+    margin: 10px 0;
+  }
+  .conten-img {
+    margin-left: 5%;
+    margin-top: 8%;
+    margin-bottom: 8%;
+  }
+  .text1 {
+    margin-left: 0px;
+  }
+  .btn-more-about-team {
+    border: none;
+    border-radius: 15px;
+    margin: 0px;
+    padding: 0px 10px;
+  }
+  .btn-img-more-about-team {
+    width: 20px;
+    height: auto;
+  }
+  .text-everyone {
+    padding: 0 5%;
+    padding-top: 10px;
+  }
+  .bordered-frame {
+    width: 55px;
+    height: 67px;
+    margin-top: -68px;
+    margin-right: 2px;
+    margin-left: 22px;
+    border: solid 2px;
+  }
+  .bordered-frame-tengah {
+    width: 55px;
+    height: 67px;
+    margin-top: -68px;
+    margin-right: 2px;
+    margin-left: 30px;
+    border: solid 2px;
+  }
+}
+@media screen and (max-width: 390px) {
+  .bordered-frame {
+    width: 52px;
+    height: 61px;
+    margin-top: -63px;
+    margin-right: 2px;
+  }
+  .bordered-frame-tengah {
+    width: 52px;
+    height: 61px;
+    margin-top: -63px;
+    margin-right: 2px;
+  }
+}
+@media screen and (max-width: 280px) {
+  .contact {
+    border: solid 1px;
+    border-radius: 30px;
+    padding: 0px 30px;
+  }
+  .bordered-frame {
+    width: 33px;
+    height: 40px;
+    margin-top: -40px;
+    margin-right: 2px;
+    margin-left: 13px;
+  }
+  .bordered-frame-tengah {
+    width: 33px;
+    height: 40px;
+    margin-top: -40px;
+    margin-right: 2px;
+    margin-left: 20px;
+  }
+  .btn-more-about-team {
+    border-radius: 15px;
+    margin: 5px;
+    padding: 0px 2px;
+  }
+  .btn-img-more-about-team {
+    width: 10px;
+    height: auto;
+  }
+  .footer {
+    margin-top: 30px;
+  }
+  .footer-logo {
+    width: 70px;
+  }
+  .footer-logo-sosmed {
+    width: 30px;
+  }
 }
