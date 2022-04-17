@@ -1,0 +1,160 @@
+.style {
+  font-family: 'Muli', sans-serif;
+  color: #1a355f;
+}
+
+nav {
+  display: flex;
+  background-color: rgb(252, 249, 253);
+  justify-content: space-around;
+  color: #1a355f;
+  height: 100px;
+  align-items: center;
+  margin: 20px 0;
+}
+
+.logo-img {
+  width: 15%;
+  margin: 9%;
+}
+.ul {
+  margin-right: 13%;
+}
+.li {
+  padding-right: 30px;
+  color: #1a355f;
+}
+.contact {
+  color: white;
+  border: solid 1px;
+  border-color: #f07539;
+  border-radius: 30px;
+  padding: 0px 30px;
+  background-color: #f07539;
+}
+
+/* untuk semua judul */
+.text-judul {
+  margin: 50px 0;
+}
+/* border di judul conten */
+.bordered-left {
+  width: 40px;
+  height: 10px;
+  border-bottom-color: #f07539;
+  border-bottom: solid 5px;
+  margin-top: 70px;
+  margin-right: 10px;
+}
+.bordered-right {
+  width: 40px;
+  height: 10px;
+  border-bottom-color: #f07539;
+  border-bottom: solid 5px;
+  margin-top: 70px;
+  margin-left: 10px;
+}
+/* image */
+.img-content {
+  width: 100%;
+  height: auto;
+  margin: 50px 0;
+}
+/* content */
+.content-text {
+  margin: 0 230px;
+}
+/* footer */
+.footer {
+  width: 100%;
+  background-color: #1a355f;
+  display: flex;
+  color: white;
+  align-items: center;
+  justify-content: space-around;
+  padding: 20px 0;
+  margin-top: 100px;
+}
+.footer-logo {
+  width: 150px;
+  height: auto;
+}
+.footer-logo-sosmed {
+  padding: 15px 8px;
+  width: 40px;
+}
+
+/* Jika ukuran layar lebar 1199px atau kurang, setel ukuran */
+@media screen and (max-width: 1199px) {
+  .content-text {
+    margin: 0 180px;
+  }
+  .bordered-left {
+    margin-top: 70px;
+  }
+  .bordered-right {
+    margin-top: 70px;
+  }
+  .footer {
+    margin-top: 100px;
+  }
+  .footer-logo {
+    width: 150px;
+  }
+  .footer-logo-sosmed {
+    width: 40px;
+  }
+}
+/* Jika ukuran layar lebar 992px atau kurang, setel ukuran */
+@media screen and (max-width: 992px) {
+  .content-text {
+    margin: 0 130px;
+  }
+  .bordered-left {
+    margin-top: 65px;
+  }
+  .bordered-right {
+    margin-top: 65px;
+  }
+  .footer {
+    margin-top: 50px;
+  }
+  .footer-logo {
+    width: 100px;
+  }
+  .footer-logo-sosmed {
+    width: 30px;
+  }
+}
+
+/* Jika ukuran layar lebar 767px atau kurang, setel ukuran font <div> menjadi 30px*/
+@media screen and (max-width: 767px) {
+  .huruf1 {
+    font-size: 20px;
+  }
+  .paragraf {
+    font-size: 15px;
+  }
+  .content-text {
+    margin: 0 70px;
+  }
+  .bordered-left {
+    margin-top: 57px;
+    width: 30px;
+    border-bottom: solid 3px;
+  }
+  .bordered-right {
+    margin-top: 57px;
+    width: 30px;
+    border-bottom: solid 3px;
+  }
+  .footer {
+    margin-top: 50px;
+  }
+  .footer-logo {
+    width: 100px;
+  }
+  .footer-logo-sosmed {
+    width: 30px;
+  }
+}

@@ -1,0 +1,135 @@
+.p1 {
+  font-family: Arial, Helvetica, sans-serif;
+}
+#BLOG {
+  color: #19345e;
+}
+
+#CONTACT {
+  color: #19345e;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+.listBening {
+  color: rgba(255, 255, 255, 0) f;
+}
+
+.oren {
+  color: #f47522;
+}
+.bg-main {
+  background: url(../asset/ornament_batik.png);
+  background-repeat: no-repeat;
+  background-size: 300px;
+}
+.bg-main-2 {
+  background: url(../asset/ornament_batik.png);
+  background-repeat: no-repeat;
+  background-position: bottom right;
+  background-size: 300px;
+}
+.container {
+  font-size: 16px;
+  font-weight: 700;
+  color: #19345e;
+}
+
+.section-header {
+  margin: 60px 0 60px 0;
+}
+.title-section {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  gap: 1rem;
+  font-weight: 700;
+  font-size: 45px;
+  color: #19345e;
+}
+
+.title-job {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 700;
+  color: #19345e;
+  font-size: 30px;
+}
+
+.img-team-lg {
+  position: absolute;
+  width: 320px;
+  height: 399px;
+  margin: 0 0 0 25px;
+}
+.f-arial {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 400;
+}
+/* .............................................................. */
+.border-img-team-lg-orange {
+  position: relative;
+  border: 10px solid #f47522;
+  width: 320px;
+  height: 399px;
+  margin: 17px 0 0 0;
+}
+
+.border-img-team-lg-navy {
+  position: relative;
+  border: 10px solid #19345e;
+  width: 320px;
+  height: 399px;
+  margin: 17px 0 0 0;
+}
+
+.img-team-lg {
+  position: absolute;
+  width: 320px;
+  height: 399px;
+  margin: 0 0 0 25px;
+}
+
+.title-job {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 700;
+  color: #19345e;
+  font-size: 30px;
+}
+
+.label-experience {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 700;
+  color: #19345e;
+  font-size: 25px;
+}
+
+.list-experience {
+  color: #19345e;
+  margin: 1.2rem 0 0 0;
+}
+
+.list-experience li {
+  padding: 0 0 0.5rem 0;
+}
+
+.list-experience img {
+  width: 20px;
+}
+
+#table-info-team {
+  color: #19345e;
+  font-size: 1.2rem;
+  padding-top: 2px;
+}
+
+#table-info-team td {
+  padding: 1rem 0 0 0;
+}
+
+.border-top-bottom {
+  border-top: 1px dashed #aaaaaa;
+  border-bottom: 1px dashed #aaaaaa;
+}
